@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>{% block title %}{% endblock title %}</title>
+</head>
+<body>
+    {% block body %}
+        <h1>Body</h1>
+        <h3>The body has not been implemented for this page</h3>
+    {% endblock body %}
+</body>
+</html>
